@@ -1,12 +1,11 @@
-#======================================================================================
+
 # Author : Ed Friesema    Date: 6/20/2017
 # Goal : To expand the single player game to a multiplayer  text blackjack game'using OOP
-# Input : Selcts user inputs to determine playersnames actions bankroll and bet size
-# Output modify player variables
-#=====================================================================================
+# Input : Selects user inputs to determine playersnames actions bankroll and bet size
+# Output : modify player variables
 
 
-class Deck(object):
+    class Deck(object):
     # Class describing a complete deck of cards
     # Attributes : cards-  a list of strings representing all of the current cards in the deck
     #              count- an integer count of the total number of cards in the deck
