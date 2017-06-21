@@ -4,12 +4,8 @@
 # Input : Selcts user inputs to determine playersnames actions bankroll and bet size
 # Output modify player variables
 #=======================================================================================
-import random
+from random import sample
 
-
-# Creates a Class for a deck of cards
-# Methods - Shuffle, deal, new deck
-#  Attributes = deck[]
 
 class Deck(object):
     # Class describing a complete deck of cards
@@ -18,7 +14,7 @@ class Deck(object):
     # Methods :    shuffle() randomize the current cards in the deck,  reutrning the new list of cards and the count
     #              dealCard() removes one card from the deck and decrements the count, returns card value and new count
     #              printDeck() prints out the entire contents of the deck(used for early debugging)
-    #              newDeck() resets the deck to a brand new orderded 52 card deck
+    #              newDeck() resets the deck to a brand new ordered 52 card deck
     
     
     freshDeck = ['2h','3h','4h','5h','6h','7h','8h','9h','Th','Jh','Qh','Kh','Ah',
@@ -32,7 +28,7 @@ class Deck(object):
         
     #Method for shuffling cards
     def shuffle(self):
-        self.cards= random.sample(self.cards,len(self.cards))
+        self.cards= sample(self.cards,len(self.cards))
         return (self.cards, self.count)
     
     #Method to deal a card

@@ -9,10 +9,10 @@
     # Class describing a complete deck of cards
     # Attributes : cards-  a list of strings representing all of the current cards in the deck
     #              count- an integer count of the total number of cards in the deck
-    # Methods :    shuffle() randomize the current cards in the deck,  reutrning the   new list of cards and the count
+    # Methods :    shuffle() randomize the current cards in the deck,  returning the new list of cards and the count
     #              dealCard() removes one card from the deck and decrements the count, returns card value and new count
     #              printDeck() prints out the entire contents of the deck(used for early debugging)
-    #              newDeck() resets the deck to a brand new orderded 52 card deck
+    #              newDeck() resets the deck to a brand new ordered 52 card deck
     
     class Player(object):
     # an object to define the player
@@ -23,6 +23,6 @@
     # Methods:     loseBet() - deducts current bet from bankroll
     #              winBet() -adds current bet to bankroll
     #              giveCard(string)- appends card represented by string to player hand
-    #              checkHand() -  checks the value for a players hand and also returns a boolean teling if they were dealt blacjack
+    #              checkHand() -  checks the value for a players hand and also returns a boolean teling if they were dealt blackjack
     #              changeBet(int) - changes the size of the players bet
     #              muckHand()-  resets the players hand to an empty list
