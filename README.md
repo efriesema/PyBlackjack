@@ -1,7 +1,7 @@
 
 # Author : Ed Friesema    Date: 6/20/2017
 # Goal : To expand the single player game to a multiplayer  text blackjack game'using OOP
-# Input : Selects user inputs to determine playersnames actions bankroll and bet size
+# Input : Selects user inputs to determine players' names, actions, bankroll, and bet size
 # Output : modify player variables
 
 
